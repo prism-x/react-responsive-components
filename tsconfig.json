@@ -19,7 +19,7 @@
     "strict" : true,
     "target" : "esnext",
     "noImplicitAny" : false,
-    "baseUrl": "./",
+    "baseUrl": "./"
   },
   "include" : [
     "src/**/*"

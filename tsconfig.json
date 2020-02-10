@@ -20,7 +20,6 @@
     "target" : "esnext",
     "noImplicitAny" : false,
     "baseUrl": "./",
-    "outDir" : "dist2"
   },
   "include" : [
     "src/**/*"

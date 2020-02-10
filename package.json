@@ -1,6 +1,6 @@
 {
   "name": "@prismx/react-responsive-components",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Responsive components",
   "author": "João Magalhães",
   "license": "MIT",
@@ -19,7 +19,8 @@
     }
   },
   "scripts": {
-    "build": "env NODE_ENV=production rm -fr dist && rollup -c"
+    "build": "rm -fr dist && env NODE_ENV=production rollup -c",
+    "watch": "rm -fr dist && env NODE_ENV=production rollup -cw"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": [
